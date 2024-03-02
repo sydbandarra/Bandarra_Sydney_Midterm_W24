@@ -31,6 +31,20 @@
  .col-end-4  {grid-column-end: 4;}
  .col-end-5  {grid-column-end: 5;}
  
+ #menu-inline {
+   display: none;
+ }
+
+ #instagram, #twitter, #facebook {
+   background-color: #330010;
+   color: #fde9e9;
+   border-radius: 10px;
+   padding-top: 60px;
+   padding-bottom: 60px;
+   text-align: center;
+   margin-top: 20px;
+   margin-bottom: 20px;
+ }
  
  
  
@@ -87,8 +101,35 @@
     .m-col-end-12  {grid-column-end: 12;}
     .m-col-end-13  {grid-column-end: 13;}
 
-    #image {
+    #logo {
+      font-size: 30px;
+    }
+
+    #image, #menu {
        display: none;
+      }
+
+      #menu-inline {
+         display: inline;
+      }
+
+      #menu-inline {
+         display: inline;
+         text-align: center;
+       }
+     
+       #menu-inline li {
+         display: inline-block;
+         list-style-type: none;
+         text-align: center;
+         margin-right: 20px;
+         font-size: 20px;
+         padding-top: 45px;
+      }
+     
+      #menu-inline li a {
+         text-decoration: none;
+         color: black;
       }
  }
  
@@ -157,5 +198,32 @@
     margin-top: 10px;
     margin-bottom:10px;
     }
+
+    #menu {
+      display: none;
+    }
+
+    #menu-inline {
+      display: inline;
+   }
+
+   #menu-inline {
+      display: inline;
+      text-align: center;
+    }
+  
+    #menu-inline li {
+      display: inline-block;
+      list-style-type: none;
+      text-align: center;
+      margin-right: 40px;
+      font-size: 30px;
+      padding-top: 45px;
+   }
+  
+   #menu-inline li a {
+      text-decoration: none;
+      color: black;
+   }
 
    }  
